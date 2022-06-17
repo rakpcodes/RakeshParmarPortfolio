@@ -1,0 +1,190 @@
+@media (max-width: 1050px) {
+
+    nav {
+
+        .navLinks.active{
+            left: 0;
+            top: 75px;
+        }
+
+        .hamburger {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: none;
+            background: none;
+            cursor: pointer;
+            // z-index: 3;
+        }
+
+        ul {
+            position: fixed;
+            left: -100%;
+            top: 80px;
+            flex-direction: column;
+            width: 100%;
+            z-index: 2;
+            transition: 0.5s;
+            background-color: white;
+
+            li {
+                margin: 20px;
+            }
+        }
+    }
+
+    .portfolio {
+
+        .gallery {
+            
+            .project {
+                width: 40%;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+
+    .header {
+
+        .imageContainer {
+
+            width: 50%;
+
+            img {
+                border: 8px solid white;
+            }
+        }
+    }
+
+    .skills{
+
+        .topRow, .bottomRow {
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 0px;
+
+            .skillBox {
+                margin: 20px;
+                width: 40%;
+
+                p {
+                    @include fontSize(18);
+                }
+            }
+        }
+
+        button {
+            margin-left: 25%;
+        }
+    }
+
+    .portfolio {
+
+        .gallery {
+            flex-direction: column;
+            align-items: center;
+
+            .project {
+                width: 60%;
+
+                .textOverlay {
+                    h3 {
+                        @include fontSize(30);
+                    }
+        
+                    p {
+                        @include fontSize(20);
+                }
+            }
+            }
+        }
+
+}
+
+    .contact {
+
+        .flexContainer {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .infoContainer, .formContainer {
+                width: 90%;
+                margin: 2rem 0;
+            }
+
+            .booking {
+                margin: 2rem 0;
+            }
+
+            input {
+                text-align: center;
+            }
+
+        }
+    }
+}
+
+@media (max-width: 600px) {
+
+    .header {
+
+        .textContainer {
+
+            h1 {
+                @include fontSize(50);
+            }
+        }
+    }
+
+    .about {
+        .interests {
+            .icons {
+
+                i {
+                    @include fontSize(30);
+                }
+                
+                li {
+                    @include fontSize(18);
+                } 
+            }
+        }
+    }
+
+    .skills {
+
+        .topRow, .bottomRow {
+
+            
+            .skillBox {
+                width: 60%;
+            }
+        }
+    }
+
+    .portfolio{
+
+        .gallery {
+
+            
+            .project {
+
+                width: 75%;
+                
+                .textOverlay{
+                    
+                    h3 {
+                        @include fontSize(20)
+                    }
+                    
+                    p {
+                        @include fontSize(18);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,61 @@
+.about{
+
+    margin: 75px 0px 75px 0px;
+    padding: 75px 0px 75px 0px;
+
+    button {
+        margin-top: 50px;
+        color: $white;
+        padding: 15px 20px;
+        border: 2px solid $blue;
+        background-color: $blue;
+        transition: all 0.3s ease-in-out;
+
+        &:hover, &:focus {
+            background-color: $white;
+            color: $blue;
+        }
+    }
+
+    .buttonFlex {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutIntro {
+
+        .aboutName {
+            border-bottom: 4px solid $lightBlue;
+        }
+    }
+    
+    .aboutText {
+
+        margin: 50px 0px;
+    }
+    
+    .interests {
+
+        width: 100%;
+
+        .icons {
+            display: flex;
+            justify-content: space-between;
+            margin: 50px 0px;
+        }
+
+        li  {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 15%;
+
+            i {
+                @include fontSize(35);
+                margin-bottom: 15px;
+
+            }
+
+        }
+    }
+}

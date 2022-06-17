@@ -1,0 +1,17 @@
+//font compiler mixin
+@mixin font($family, $weight, $color) {
+    font-family: $family;
+    font-weight: $weight;
+    color: $color;
+}
+
+// rem converter mixin
+@mixin fontSize($sizeValue) {
+    font-size: $sizeValue * 1px;
+    font-size: calc($sizeValue / 20) * 1rem;
+}
+
+@mixin lineLetter ($height, $spacing) {
+    line-height: $height;
+    letter-spacing: $spacing;
+}

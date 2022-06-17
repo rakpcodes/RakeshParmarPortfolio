@@ -1,0 +1,35 @@
+.header {
+    background-color: $blue;
+    height: 100vh;
+    margin-top: 75px;
+
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imageContainer {
+        margin-top: 7.5%;
+        width: 30%;
+
+        img {
+            border-radius: 50%;
+            border: 10px solid $white;
+            width: 100%;
+        }
+    }
+
+    button {
+        padding: 15px 20px;
+        margin-top: 25px;
+        border: 2px solid $white;
+        background-color: $blue;
+        transition: all 0.3s ease-in-out;
+
+        &:hover, &:focus {
+            background-color: $white;
+            color: $blue;
+        }
+    }
+}

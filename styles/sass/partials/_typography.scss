@@ -1,0 +1,170 @@
+// h1: 60px
+// h2: 55px
+// h3: 45px
+// h4: 35px
+// h5: 25px
+// p: 20px
+
+html {
+    font-size: 125%;
+}
+
+body {
+    @include font($poppins, $regular, $black);
+}
+
+.header {
+
+    .textContainer {
+
+        text-align: center;
+
+        h1{
+            @include font($poppins, $semiBold, $white);
+            @include fontSize(60);
+            text-transform: uppercase
+        }
+
+        p{
+            @include font($poppins, $regular, $white);
+        }
+    }
+
+    button {
+        @include fontSize(18);
+        color: $white;
+        text-transform: uppercase;
+    }
+}
+
+nav {
+
+    p {
+        @include font($poppins, $semiBold, $blue);
+        @include fontSize(25)
+    }
+
+    .navLinks a{
+        @include fontSize(18);
+        @include font($poppins, $semiBold, $blue);
+        text-decoration: none;
+    }
+
+    .socials a {
+        color: $blue
+    }
+
+}
+
+.sectionHeader {
+
+    h2 {
+
+        @include fontSize(50);
+        @include font($poppins, $semiBold, $blue);
+    }
+
+}
+
+.about{
+
+    .aboutText {
+        line-height: 2rem;
+    }
+
+    .aboutIntro {
+        @include fontSize(30);
+        @include font($poppins, $regular, $blue);
+
+        .aboutName {
+            @include font($poppins, $bold, $blue)
+        }
+    }
+
+    .interests {
+        @include font($poppins, $regular, $blue)
+    }
+
+    
+    button {
+        color: $white;
+        text-transform: uppercase;
+    }
+}
+
+.skills {
+
+    h3 {
+        @include font($poppins, $semiBold, $blue);
+    }
+}
+
+.portfolio {
+
+    .gallery {
+        text-align: center;
+    }
+
+    .textOverlay {
+
+        a {
+            text-decoration: none;
+        }
+
+
+        h3 {
+            @include font($poppins, $semiBold, $white);
+            @include fontSize(18);
+        }
+
+        p {
+            @include font($poppins, $regular, $white);
+            @include fontSize(16);
+            line-height: 1.5rem;
+        }
+    }
+}
+
+.contact {
+
+    h3 {
+        @include fontSize(30);
+        @include font($poppins, $semiBold, $white);
+    }
+
+    h4 {
+        @include font($poppins, $semiBold, $white);
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+
+    p, li {
+        @include font($poppins, $regular, $white);
+        @include fontSize(18)
+    }
+
+    i {
+        @include fontSize(30);
+    }
+
+    label {
+        @include font($poppins, $regular, $white);
+    }
+    
+    input {
+        @include font($poppins, $regular, $white);
+    }
+
+    textarea {
+        @include font($poppins, $regular, $white);
+    }
+
+    button {
+        @include fontSize(18);
+        color: $white;
+        text-transform: uppercase;
+    }
+}

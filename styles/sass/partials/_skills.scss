@@ -1,0 +1,75 @@
+.skills {
+
+    background-color: $lightGrey;
+    padding: 75px 0px;
+
+    .topRow, .bottomRow {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        margin-top: 65px;
+
+        h3 {
+            margin: 0px;
+        }
+
+        .skillBox {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 30%;
+            margin: 0px 5px;
+            padding: 20px;
+            border: 0.5px solid $blue;
+            transition: all 0.5s ease-in-out;
+            
+            
+            
+            &:hover, &:focus {
+                box-shadow: 15px 15px 0px $blue;
+                
+                .html {
+                    color: #f06529;
+                    transition: all 0.5s ease-in-out;
+                }
+                
+                .css {
+                    color: #2965f1;
+                    transition: all 0.5s ease-in-out;
+                }
+                
+                .js {
+                    color: #f0db4f;
+                    transition: all 0.5s ease-in-out;
+                }
+                
+                .sass {
+                    color: #cc6699;
+                    transition: all 0.5s ease-in-out;
+                }
+                
+                .react {
+                    color: #61DBFB;
+                    transition: all 0.5s ease-in-out;
+                }
+                
+                .team {
+                    color:#006e25;
+                    transition: all 0.5s ease-in-out;
+                }
+
+            }
+
+            i{
+                font-size: 50px;
+                margin-bottom: 15px;
+            }
+
+            .team {
+                padding-top: 20px; //slight position issue with icon
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,1089 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  font-size: 125%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #212529;
+}
+
+.header .textContainer {
+  text-align: center;
+}
+.header .textContainer h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #FFF;
+  font-size: 60px;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.header .textContainer p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #FFF;
+}
+.header button {
+  font-size: 18px;
+  font-size: 0.9rem;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+nav p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #252f43;
+  font-size: 25px;
+  font-size: 1.25rem;
+}
+nav .navLinks a {
+  font-size: 18px;
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #252f43;
+  text-decoration: none;
+}
+nav .socials a {
+  color: #252f43;
+}
+
+.sectionHeader h2 {
+  font-size: 50px;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #252f43;
+}
+
+.about .aboutText {
+  line-height: 2rem;
+}
+.about .aboutIntro {
+  font-size: 30px;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #252f43;
+}
+.about .aboutIntro .aboutName {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #252f43;
+}
+.about .interests {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #252f43;
+}
+.about button {
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.skills h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #252f43;
+}
+
+.portfolio .gallery {
+  text-align: center;
+}
+.portfolio .textOverlay a {
+  text-decoration: none;
+}
+.portfolio .textOverlay h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #FFF;
+  font-size: 18px;
+  font-size: 0.9rem;
+}
+.portfolio .textOverlay p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #FFF;
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
+.contact h3 {
+  font-size: 30px;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #FFF;
+}
+.contact h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #FFF;
+}
+.contact a {
+  color: #FFF;
+  text-decoration: none;
+}
+.contact p, .contact li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #FFF;
+  font-size: 18px;
+  font-size: 0.9rem;
+}
+.contact i {
+  font-size: 30px;
+  font-size: 1.5rem;
+}
+.contact label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #FFF;
+}
+.contact input {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #FFF;
+}
+.contact textarea {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #FFF;
+}
+.contact button {
+  font-size: 18px;
+  font-size: 0.9rem;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  overflow-y: hidden;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sectionHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sectionHeader h2 {
+  margin: 20px 0px;
+}
+
+.sectionTitle {
+  display: inline;
+  background-color: #252f43;
+  color: white;
+  padding: 4px 10px 2.5px 10px;
+  margin: 0px;
+}
+
+nav {
+  background-color: #FFF;
+  text-transform: uppercase;
+  border-bottom: 1px solid grey;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  z-index: 1;
+}
+nav .flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav .navLinks a {
+  margin: 0 10px;
+  padding: 10px;
+  position: relative;
+}
+nav .navLinks a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #45569f;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.5s ease-in;
+  transition: -webkit-transform 0.5s ease-in;
+  transition: transform 0.5s ease-in;
+  transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+}
+nav .navLinks a:hover::before, nav .navLinks a:focus::before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+nav .hamburger {
+  display: none;
+}
+nav .hamburger .bar {
+  display: block;
+  width: 50px;
+  border-radius: 50px;
+  height: 4px;
+  margin: 4px 0px;
+  background-color: #252f43;
+  color: #FFF;
+}
+nav .socials a {
+  margin: 0 5px;
+  padding: 5px;
+}
+nav .socials li {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+nav .socials li:hover, nav .socials li:focus {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+nav .socials li:hover .insta, nav .socials li:focus .insta {
+  color: #bc2a8d;
+}
+nav .socials li:hover .twitter, nav .socials li:focus .twitter {
+  color: #1DA1F2;
+}
+nav .socials li:hover .linkedIn, nav .socials li:focus .linkedIn {
+  color: #0077b5;
+}
+
+.header {
+  background-color: #252f43;
+  height: 100vh;
+  margin-top: 75px;
+}
+.header .flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .imageContainer {
+  margin-top: 7.5%;
+  width: 30%;
+}
+.header .imageContainer img {
+  border-radius: 50%;
+  border: 10px solid #FFF;
+  width: 100%;
+}
+.header button {
+  padding: 15px 20px;
+  margin-top: 25px;
+  border: 2px solid #FFF;
+  background-color: #252f43;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.header button:hover, .header button:focus {
+  background-color: #FFF;
+  color: #252f43;
+}
+
+.about {
+  margin: 75px 0px 75px 0px;
+  padding: 75px 0px 75px 0px;
+}
+.about button {
+  margin-top: 50px;
+  color: #FFF;
+  padding: 15px 20px;
+  border: 2px solid #252f43;
+  background-color: #252f43;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.about button:hover, .about button:focus {
+  background-color: #FFF;
+  color: #252f43;
+}
+.about .buttonFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.about .aboutIntro .aboutName {
+  border-bottom: 4px solid #45569f;
+}
+.about .aboutText {
+  margin: 50px 0px;
+}
+.about .interests {
+  width: 100%;
+}
+.about .interests .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 50px 0px;
+}
+.about .interests li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 15%;
+}
+.about .interests li i {
+  font-size: 35px;
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+}
+
+.skills {
+  background-color: #f8f9fa;
+  padding: 75px 0px;
+}
+.skills .topRow, .skills .bottomRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 65px;
+}
+.skills .topRow h3, .skills .bottomRow h3 {
+  margin: 0px;
+}
+.skills .topRow .skillBox, .skills .bottomRow .skillBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30%;
+  margin: 0px 5px;
+  padding: 20px;
+  border: 0.5px solid #252f43;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.skills .topRow .skillBox:hover, .skills .topRow .skillBox:focus, .skills .bottomRow .skillBox:hover, .skills .bottomRow .skillBox:focus {
+  -webkit-box-shadow: 15px 15px 0px #252f43;
+          box-shadow: 15px 15px 0px #252f43;
+}
+.skills .topRow .skillBox:hover .html, .skills .topRow .skillBox:focus .html, .skills .bottomRow .skillBox:hover .html, .skills .bottomRow .skillBox:focus .html {
+  color: #f06529;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.skills .topRow .skillBox:hover .css, .skills .topRow .skillBox:focus .css, .skills .bottomRow .skillBox:hover .css, .skills .bottomRow .skillBox:focus .css {
+  color: #2965f1;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.skills .topRow .skillBox:hover .js, .skills .topRow .skillBox:focus .js, .skills .bottomRow .skillBox:hover .js, .skills .bottomRow .skillBox:focus .js {
+  color: #f0db4f;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.skills .topRow .skillBox:hover .sass, .skills .topRow .skillBox:focus .sass, .skills .bottomRow .skillBox:hover .sass, .skills .bottomRow .skillBox:focus .sass {
+  color: #cc6699;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.skills .topRow .skillBox:hover .react, .skills .topRow .skillBox:focus .react, .skills .bottomRow .skillBox:hover .react, .skills .bottomRow .skillBox:focus .react {
+  color: #61DBFB;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.skills .topRow .skillBox:hover .team, .skills .topRow .skillBox:focus .team, .skills .bottomRow .skillBox:hover .team, .skills .bottomRow .skillBox:focus .team {
+  color: #006e25;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.skills .topRow .skillBox i, .skills .bottomRow .skillBox i {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.skills .topRow .skillBox .team, .skills .bottomRow .skillBox .team {
+  padding-top: 20px;
+}
+
+.portfolio {
+  padding: 75px 0px;
+}
+.portfolio .gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.portfolio .project {
+  margin: 20px;
+  width: 29%;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.portfolio .project img {
+  width: 100%;
+  display: block;
+}
+.portfolio .project .textOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.portfolio .project .textOverlay h3 {
+  margin: 0px;
+}
+.portfolio .project .textOverlay p {
+  padding: 0px 20px;
+  margin: 10px 0px;
+}
+.portfolio .project .textOverlay > * {
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+.portfolio .project .textOverlay:hover, .portfolio .project .textOverlay:focus {
+  opacity: 1;
+}
+.portfolio .project .textOverlay:hover > *, .portfolio .project .textOverlay:focus > * {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.portfolio .project .textOverlay .linkContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.portfolio .project .linkContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.portfolio .project .linkContainer a {
+  color: white;
+}
+.portfolio .project .linkContainer a:hover, .portfolio .project .linkContainer a:focus {
+  text-decoration: underline;
+}
+
+.contact {
+  background-color: #252f43;
+  padding: 75px 0px;
+}
+.contact .flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.contact .flexContainer h3 {
+  margin-bottom: 2.5rem;
+}
+.contact .flexContainer .contactForm input, .contact .flexContainer .contactForm textarea {
+  width: 100%;
+}
+.contact .flexContainer .infoContainer, .contact .flexContainer .formContainer {
+  width: 40%;
+}
+.contact .flexContainer .links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+}
+.contact .flexContainer .links ul a {
+  padding: 1rem;
+}
+.contact .flexContainer .links ul li {
+  margin-right: 1.5rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.contact .flexContainer .links ul li:hover, .contact .flexContainer .links ul li:focus {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+.contact .flexContainer .links ul li:hover .insta, .contact .flexContainer .links ul li:focus .insta {
+  color: #bc2a8d;
+}
+.contact .flexContainer .links ul li:hover .twitter, .contact .flexContainer .links ul li:focus .twitter {
+  color: #1DA1F2;
+}
+.contact .flexContainer .links ul li:hover .linkedIn, .contact .flexContainer .links ul li:focus .linkedIn {
+  color: #0077b5;
+}
+.contact .flexContainer .links ul li:hover .gitHub, .contact .flexContainer .links ul li:focus .gitHub {
+  color: #171515;
+}
+.contact .flexContainer .infoContainer {
+  line-height: 45px;
+  letter-spacing: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contact .flexContainer .infoContainer h4, .contact .flexContainer .infoContainer p {
+  margin: 0.5rem 0;
+}
+.contact .flexContainer .infoContainer .booking a {
+  padding: 10px 0;
+  position: relative;
+}
+.contact .flexContainer .infoContainer .booking a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 88%;
+  height: 2px;
+  bottom: 0;
+  left: 1.8rem;
+  background-color: #FFF;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.5s ease-in;
+  transition: -webkit-transform 0.5s ease-in;
+  transition: transform 0.5s ease-in;
+  transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+}
+.contact .flexContainer .infoContainer .booking a:hover::before, .contact .flexContainer .infoContainer .booking a:focus::before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+.contact .flexContainer .infoContainer .booking .calendly {
+  padding-right: 0.5rem;
+}
+.contact .flexContainer .formContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contact .flexContainer .formContainer input[type=text], .contact .flexContainer .formContainer input[type=email] {
+  font-family: inherit;
+  border-style: none;
+  background-color: #252f43;
+  border-bottom: 2px solid #FFF;
+  height: 50px;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.contact .flexContainer .formContainer textarea {
+  border: 2px solid #FFF;
+  background-color: #252f43;
+  resize: none;
+  padding: 1rem;
+  margin: 1.5rem 0px;
+}
+.contact .flexContainer .formContainer button {
+  width: 100%;
+  padding: 15px 20px;
+  margin-top: 25px;
+  border: 2px solid #FFF;
+  color: #FFF;
+  background-color: #252f43;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.contact .flexContainer .formContainer button:hover, .contact .flexContainer .formContainer button:focus {
+  background-color: #FFF;
+  color: #252f43;
+}
+
+@media (max-width: 1050px) {
+  nav .navLinks.active {
+    left: 0;
+    top: 75px;
+  }
+  nav .hamburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  nav ul {
+    position: fixed;
+    left: -100%;
+    top: 80px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    z-index: 2;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-color: white;
+  }
+  nav ul li {
+    margin: 20px;
+  }
+
+  .portfolio .gallery .project {
+    width: 40%;
+  }
+}
+@media (max-width: 900px) {
+  .header .imageContainer {
+    width: 50%;
+  }
+  .header .imageContainer img {
+    border: 8px solid white;
+  }
+
+  .skills .topRow, .skills .bottomRow {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 0px;
+  }
+  .skills .topRow .skillBox, .skills .bottomRow .skillBox {
+    margin: 20px;
+    width: 40%;
+  }
+  .skills .topRow .skillBox p, .skills .bottomRow .skillBox p {
+    font-size: 18px;
+    font-size: 0.9rem;
+  }
+  .skills button {
+    margin-left: 25%;
+  }
+
+  .portfolio .gallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .portfolio .gallery .project {
+    width: 60%;
+  }
+  .portfolio .gallery .project .textOverlay h3 {
+    font-size: 30px;
+    font-size: 1.5rem;
+  }
+  .portfolio .gallery .project .textOverlay p {
+    font-size: 20px;
+    font-size: 1rem;
+  }
+
+  .contact .flexContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .contact .flexContainer .infoContainer, .contact .flexContainer .formContainer {
+    width: 90%;
+    margin: 2rem 0;
+  }
+  .contact .flexContainer .booking {
+    margin: 2rem 0;
+  }
+  .contact .flexContainer input {
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .header .textContainer h1 {
+    font-size: 50px;
+    font-size: 2.5rem;
+  }
+
+  .about .interests .icons i {
+    font-size: 30px;
+    font-size: 1.5rem;
+  }
+  .about .interests .icons li {
+    font-size: 18px;
+    font-size: 0.9rem;
+  }
+
+  .skills .topRow .skillBox, .skills .bottomRow .skillBox {
+    width: 60%;
+  }
+
+  .portfolio .gallery .project {
+    width: 75%;
+  }
+  .portfolio .gallery .project .textOverlay h3 {
+    font-size: 20px;
+    font-size: 1rem;
+  }
+  .portfolio .gallery .project .textOverlay p {
+    font-size: 18px;
+    font-size: 0.9rem;
+  }
+}
